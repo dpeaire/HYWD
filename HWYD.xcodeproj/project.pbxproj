@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7E35A38E1E946988009FB538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35A38D1E946988009FB538 /* AppDelegate.swift */; };
-		7E35A3901E946988009FB538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35A38F1E946988009FB538 /* ViewController.swift */; };
 		7E35A3931E946988009FB538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E35A3911E946988009FB538 /* Main.storyboard */; };
 		7E35A3961E946988009FB538 /* HWYD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E35A3941E946988009FB538 /* HWYD.xcdatamodeld */; };
 		7E35A3981E946988009FB538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E35A3971E946988009FB538 /* Assets.xcassets */; };
 		7E35A39B1E946988009FB538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E35A3991E946988009FB538 /* LaunchScreen.storyboard */; };
 		7E35A3A61E946988009FB538 /* HWYDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35A3A51E946988009FB538 /* HWYDTests.swift */; };
 		7E35A3B11E946988009FB538 /* HWYDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35A3B01E946988009FB538 /* HWYDUITests.swift */; };
+		7E35A3C01E97007E009FB538 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35A3BF1E97007E009FB538 /* JournalEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		7E35A38A1E946987009FB538 /* HWYD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWYD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E35A38D1E946988009FB538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E35A38F1E946988009FB538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E35A3921E946988009FB538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E35A3951E946988009FB538 /* HWYD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HWYD.xcdatamodel; sourceTree = "<group>"; };
 		7E35A3971E946988009FB538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		7E35A3AC1E946988009FB538 /* HWYDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWYDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E35A3B01E946988009FB538 /* HWYDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWYDUITests.swift; sourceTree = "<group>"; };
 		7E35A3B21E946988009FB538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E35A3BF1E97007E009FB538 /* JournalEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				7E35A38D1E946988009FB538 /* AppDelegate.swift */,
-				7E35A38F1E946988009FB538 /* ViewController.swift */,
+				7E35A3BF1E97007E009FB538 /* JournalEntry.swift */,
 				7E35A3911E946988009FB538 /* Main.storyboard */,
 				7E35A3971E946988009FB538 /* Assets.xcassets */,
 				7E35A3BE1E9469D6009FB538 /* Supporting Files */,
@@ -273,9 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E35A3901E946988009FB538 /* ViewController.swift in Sources */,
 				7E35A3961E946988009FB538 /* HWYD.xcdatamodeld in Sources */,
 				7E35A38E1E946988009FB538 /* AppDelegate.swift in Sources */,
+				7E35A3C01E97007E009FB538 /* JournalEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +528,7 @@
 				7E35A3B71E946988009FB538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E35A3B81E946988009FB538 /* Build configuration list for PBXNativeTarget "HWYDTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +537,7 @@
 				7E35A3BA1E946988009FB538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E35A3BB1E946988009FB538 /* Build configuration list for PBXNativeTarget "HWYDUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +546,7 @@
 				7E35A3BD1E946988009FB538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
