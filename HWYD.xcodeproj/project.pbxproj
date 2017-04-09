@@ -14,7 +14,9 @@
 		7E35A39B1E946988009FB538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E35A3991E946988009FB538 /* LaunchScreen.storyboard */; };
 		7E35A3A61E946988009FB538 /* HWYDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35A3A51E946988009FB538 /* HWYDTests.swift */; };
 		7E35A3B11E946988009FB538 /* HWYDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35A3B01E946988009FB538 /* HWYDUITests.swift */; };
-		7E63880D1E9AE42400941C6A /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63880C1E9AE42400941C6A /* JournalEntryViewController.swift */; };
+		7E6388131E9AE5E800941C6A /* JournalEntryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6388121E9AE5E800941C6A /* JournalEntryCollectionViewController.swift */; };
+		7E6388161E9AE60E00941C6A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6388141E9AE60E00941C6A /* CollectionViewCell.swift */; };
+		7E6388171E9AE60E00941C6A /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6388151E9AE60E00941C6A /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,9 @@
 		7E35A3AC1E946988009FB538 /* HWYDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWYDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E35A3B01E946988009FB538 /* HWYDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWYDUITests.swift; sourceTree = "<group>"; };
 		7E35A3B21E946988009FB538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E63880C1E9AE42400941C6A /* JournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
+		7E6388121E9AE5E800941C6A /* JournalEntryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryCollectionViewController.swift; sourceTree = "<group>"; };
+		7E6388141E9AE60E00941C6A /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7E6388151E9AE60E00941C6A /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 		7E35A38C1E946987009FB538 /* HWYD */ = {
 			isa = PBXGroup;
 			children = (
-				7E63880C1E9AE42400941C6A /* JournalEntryViewController.swift */,
+				7E6388141E9AE60E00941C6A /* CollectionViewCell.swift */,
+				7E6388151E9AE60E00941C6A /* CollectionViewCell.xib */,
+				7E6388121E9AE5E800941C6A /* JournalEntryCollectionViewController.swift */,
 				7E35A38D1E946988009FB538 /* AppDelegate.swift */,
 				7E35A3911E946988009FB538 /* Main.storyboard */,
 				7E35A3971E946988009FB538 /* Assets.xcassets */,
@@ -254,6 +260,7 @@
 			files = (
 				7E35A39B1E946988009FB538 /* LaunchScreen.storyboard in Resources */,
 				7E35A3981E946988009FB538 /* Assets.xcassets in Resources */,
+				7E6388171E9AE60E00941C6A /* CollectionViewCell.xib in Resources */,
 				7E35A3931E946988009FB538 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,8 +380,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E35A3961E946988009FB538 /* HWYD.xcdatamodeld in Sources */,
+				7E6388131E9AE5E800941C6A /* JournalEntryCollectionViewController.swift in Sources */,
+				7E6388161E9AE60E00941C6A /* CollectionViewCell.swift in Sources */,
 				7E35A38E1E946988009FB538 /* AppDelegate.swift in Sources */,
-				7E63880D1E9AE42400941C6A /* JournalEntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
