@@ -1,0 +1,6 @@
+framework module Pods_HWYDUITests {
+  umbrella header "Pods-HWYDUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
